@@ -39,11 +39,16 @@ nav {
 
 .logo {
   font-weight: 700;
+  white-space: nowrap;
+  padding-right: 0.2em;
+}
+
+.logo-link, .logo {
   background: var(--gradient);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  white-space: nowrap;
+  text-decoration: none;
 }
 
 .nav-links {
@@ -90,6 +95,8 @@ nav a:hover { color: var(--accent2); }
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  padding-right: 0.15em;
+  display: inline-block;
 }
 
 .tagline { margin-top: 1rem; font-size: 1.2rem; color: var(--text-muted); }
@@ -119,6 +126,7 @@ h2 {
   background-clip: text;
   color: transparent;
   display: inline-block;
+  padding-right: 0.15em;
 }
 
 .section-intro { color: var(--text-muted); margin-bottom: 2.5rem; max-width: 640px; }
@@ -173,6 +181,43 @@ h2 {
 }
 
 .contact a:hover { color: var(--accent3); }
+
+.project-detail {
+  padding-top: 8rem;
+  max-width: 800px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  color: var(--accent2);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-link:hover { color: var(--accent3); }
+
+.project-detail h1 {
+  font-size: 2.4rem;
+  font-style: italic;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  padding-right: 0.15em;
+}
+
+.detail-image {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 1.5rem 0;
+  background: #eee;
+}
+
+.project-detail p { color: var(--text-muted); }
 
 footer {
   text-align: center;
