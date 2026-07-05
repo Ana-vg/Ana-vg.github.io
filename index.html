@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Anamaría Soriano | Portafolio de Videojuegos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,66 +30,103 @@
 </header>
 
 <section id="inicio" class="hero">
+<div class="hero-badge"><span class="dot"></span><span data-i18n="hero.badge">Disponible para nuevos proyectos</span></div>
 <h1>Anamaría Soriano</h1>
 <p class="tagline" data-i18n="hero.tagline">Desarrolladora de videojuegos — Diseño de niveles · Cinemáticas · UI</p>
 <p class="hero-about" data-i18n="hero.about">Soy desarrolladora en Unity, con experiencia en diseño de niveles, creación de cinemáticas y UI. Destaco por mi proactividad, trabajo en equipo y comunicación efectiva, buscando roles que combinen narrativa con el desarrollo de experiencias interactivas.</p>
+<div class="hero-ctas">
 <a href="#proyectos" class="cta-button" data-i18n="hero.cta">Ver proyectos</a>
+<a href="#contacto" class="cta-button cta-secondary" data-i18n="hero.cta2">Hablemos</a>
+</div>
+<div class="marquee-wrap">
+<div class="marquee-track">
+<span>Diseño de niveles</span><span>Cinemáticas</span><span>UI/UX</span><span>Unity</span><span>Narrativa interactiva</span><span>Prototipado</span>
+<span>Diseño de niveles</span><span>Cinemáticas</span><span>UI/UX</span><span>Unity</span><span>Narrativa interactiva</span><span>Prototipado</span>
+</div>
+</div>
 </section>
 
 <section id="proyectos">
+<div class="section-head">
+<div>
+<div class="section-eyebrow">002 — Proyectos</div>
 <h2 data-i18n="projects.heading">Proyectos</h2>
+</div>
 <p class="section-intro" data-i18n="projects.intro">Una selección de los juegos en los que he trabajado, con mi rol y el impacto de cada proyecto.</p>
+</div>
 <div class="project-grid">
 
-<div class="project-card">
-<img src="assets/hot-potato.jpg" alt="Hot Potato">
+<a class="project-card" href="hot-potato.html">
+<div class="thumb"><span class="engine-tag">Unity</span><img src="assets/hot-potato.jpg" alt="Hot Potato" onerror="this.style.display='none'"><span class="placeholder-label">imagen: hot-potato.jpg</span></div>
+<div class="body">
 <h3>Hot Potato</h3>
 <p class="project-role" data-i18n="project.role">Rol: [pendiente] · Motor: [pendiente]</p>
 <p data-i18n="project.desc">[Descripción pendiente: mecánica principal e impacto del proyecto]</p>
-<a href="hot-potato.html" data-i18n="project.viewMore">Ver más →</a>
 </div>
+</a>
 
-<div class="project-card">
-<img src="assets/for-life.jpg" alt="For Life">
+<a class="project-card" href="for-life.html">
+<div class="thumb"><span class="engine-tag">Unity</span><img src="assets/for-life.jpg" alt="For Life" onerror="this.style.display='none'"><span class="placeholder-label">imagen: for-life.jpg</span></div>
+<div class="body">
 <h3>For Life</h3>
 <p class="project-role" data-i18n="project.role">Rol: [pendiente] · Motor: [pendiente]</p>
 <p data-i18n="project.desc">[Descripción pendiente: mecánica principal e impacto del proyecto]</p>
-<a href="for-life.html" data-i18n="project.viewMore">Ver más →</a>
 </div>
+</a>
 
-<div class="project-card">
-<img src="assets/ultimate-battle.jpg" alt="Ultimate Battle">
+<a class="project-card" href="ultimate-battle.html">
+<div class="thumb"><span class="engine-tag">Unity</span><img src="assets/ultimate-battle.jpg" alt="Ultimate Battle" onerror="this.style.display='none'"><span class="placeholder-label">imagen: ultimate-battle.jpg</span></div>
+<div class="body">
 <h3>Ultimate Battle</h3>
 <p class="project-role" data-i18n="project.role">Rol: [pendiente] · Motor: [pendiente]</p>
 <p data-i18n="project.desc">[Descripción pendiente: mecánica principal e impacto del proyecto]</p>
-<a href="ultimate-battle.html" data-i18n="project.viewMore">Ver más →</a>
 </div>
+</a>
 
-<div class="project-card">
-<img src="assets/jump-till-the-end.jpg" alt="Jump Till The End">
+<a class="project-card" href="jump-till-the-end.html">
+<div class="thumb"><span class="engine-tag">Unity</span><img src="assets/jump-till-the-end.jpg" alt="Jump Till The End" onerror="this.style.display='none'"><span class="placeholder-label">imagen: jump-till-the-end.jpg</span></div>
+<div class="body">
 <h3>Jump Till The End</h3>
 <p class="project-role" data-i18n="project.role">Rol: [pendiente] · Motor: [pendiente]</p>
 <p data-i18n="project.desc">[Descripción pendiente: mecánica principal e impacto del proyecto]</p>
-<a href="jump-till-the-end.html" data-i18n="project.viewMore">Ver más →</a>
 </div>
+</a>
 
 </div>
 </section>
 
 <section id="sobre-mi" class="about">
+<div class="about-grid">
+<div>
+<div class="section-eyebrow">003 — Sobre mí</div>
 <h2 data-i18n="about.heading">Sobre mí</h2>
-<a href="cv.html" class="cta-button" data-i18n="about.cvButton">Ver CV</a>
+<p data-i18n="about.p1">Soy desarrolladora en Unity con experiencia en diseño de niveles, creación de cinemáticas y UI. Me muevo entre la lógica de sistemas y el ritmo narrativo, buscando siempre que cada espacio se sienta intencional.</p>
+<p data-i18n="about.p2">Destaco por mi proactividad, trabajo en equipo y comunicación efectiva — busco roles que combinen narrativa con el desarrollo de experiencias interactivas.</p>
+<a href="cv.html" class="cta-button" data-i18n="about.cvButton">Ver CV completo →</a>
+</div>
+<div class="skills-grid">
+<div class="skill-card"><div class="icon">🎮</div><div class="label" data-i18n="skill.unity.label">Unity</div><div class="detail" data-i18n="skill.unity.detail">C#, prefabs, sistemas de juego</div></div>
+<div class="skill-card"><div class="icon">🗺️</div><div class="label" data-i18n="skill.level.label">Diseño de niveles</div><div class="detail" data-i18n="skill.level.detail">Ritmo, lectura espacial, flow</div></div>
+<div class="skill-card"><div class="icon">🎬</div><div class="label" data-i18n="skill.cine.label">Cinemáticas</div><div class="detail" data-i18n="skill.cine.detail">Timeline, cámaras, montaje</div></div>
+<div class="skill-card"><div class="icon">🖼️</div><div class="label" data-i18n="skill.ui.label">UI/UX</div><div class="detail" data-i18n="skill.ui.detail">Interfaces diegéticas y de menú</div></div>
+<div class="skill-card"><div class="icon">🤝</div><div class="label" data-i18n="skill.team.label">Trabajo en equipo</div><div class="detail" data-i18n="skill.team.detail">Comunicación, iteración rápida</div></div>
+<div class="skill-card"><div class="icon">📝</div><div class="label" data-i18n="skill.narrative.label">Narrativa</div><div class="detail" data-i18n="skill.narrative.detail">Diseño de experiencias con historia</div></div>
+</div>
+</div>
 </section>
 
 <section id="contacto" class="contact">
+<div class="section-eyebrow">004 — Contacto</div>
 <h2 data-i18n="contact.heading">Contacto</h2>
 <p data-i18n="contact.text">¿Tienes un proyecto en mente o quieres conversar? Escríbeme, con gusto respondo.</p>
-<a href="mailto:ana.soriano.vg@gmail.com">ana.soriano.vg@gmail.com</a>
-<a href="https://www.linkedin.com/in/anamaría-soriano-videojogames-cinema/" target="_blank">LinkedIn</a>
+<div class="contact-ctas">
+<a href="mailto:ana.soriano.vg@gmail.com" class="cta-button">ana.soriano.vg@gmail.com</a>
+<a href="https://www.linkedin.com/in/anamaría-soriano-videojogames-cinema/" target="_blank" class="cta-button secondary" data-i18n="contact.linkedin">LinkedIn ↗</a>
+</div>
 </section>
 
 <footer>
-<p data-i18n="footer.text">&copy; 2026 Anamaría Soriano</p>
+<p data-i18n="footer.text">© 2026 Anamaría Soriano</p>
 </footer>
 
 <script src="script.js"></script>

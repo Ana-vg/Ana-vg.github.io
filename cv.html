@@ -4,42 +4,121 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CV | Anamaría Soriano</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-  <nav>
-    <div class="logo"><a href="index.html#inicio" class="logo-link">Anamaría Soriano</a></div>
-    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
-    <ul class="nav-links">
-      <li><a href="index.html#inicio">Inicio</a></li>
-      <li><a href="index.html#proyectos">Proyectos</a></li>
-      <li><a href="index.html#sobre-mi">Sobre mí</a></li>
-      <li><a href="cv.html">CV</a></li>
-      <li><a href="index.html#contacto">Contacto</a></li>
-    </ul>
-    <div class="nav-contact">
-      <a href="mailto:ana.soriano.vg@gmail.com" title="Correo">Correo</a>
-      <a href="https://www.linkedin.com/in/anamaría-soriano-videojogames-cinema/" target="_blank" title="LinkedIn">LinkedIn</a>
-    </div>
-  </nav>
+<nav>
+<div class="logo"><a href="index.html#inicio" class="logo-link">Anamaría Soriano</a></div>
+<button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+<ul class="nav-links">
+<li><a href="index.html#inicio" data-i18n="nav.inicio">Inicio</a></li>
+<li><a href="index.html#proyectos" data-i18n="nav.proyectos">Proyectos</a></li>
+<li><a href="index.html#sobre-mi" data-i18n="nav.sobre">Sobre mí</a></li>
+<li><a href="cv.html" data-i18n="nav.cv">CV</a></li>
+<li><a href="index.html#contacto" data-i18n="nav.contacto">Contacto</a></li>
+</ul>
+<div class="nav-contact">
+<a href="mailto:ana.soriano.vg@gmail.com" title="Correo" data-i18n="nav.correo">Correo</a>
+<a href="https://www.linkedin.com/in/anamaría-soriano-videojogames-cinema/" target="_blank" title="LinkedIn">LinkedIn</a>
+<button id="langToggle" class="lang-toggle" type="button" aria-label="Switch to English">EN</button>
+</div>
+</nav>
 </header>
 
 <section class="cv-page">
-  <h1>Mi CV</h1>
-  <p class="section-intro">Elige el idioma para ver o descargar mi currículum.</p>
+<div class="cv-header">
+<div>
+<div class="section-eyebrow" data-i18n="nav.sobre">Sobre mí</div>
+<h1>Anamaría Soriano</h1>
+<p data-i18n="hero.tagline">Desarrolladora de videojuegos — Diseño de niveles · Cinemáticas · UI</p>
+</div>
+<div class="cv-buttons">
+<a href="assets/cv-es.pdf" target="_blank" class="cta-button" data-i18n="cv.esButton">CV en Español</a>
+<a href="assets/cv-en.pdf" target="_blank" class="cta-button cta-secondary" data-i18n="cv.enButton">CV in English</a>
+</div>
+</div>
 
-  <div class="cv-buttons">
-    <a href="assets/cv-es.pdf" target="_blank" class="cta-button">CV en Español</a>
-    <a href="assets/cv-en.pdf" target="_blank" class="cta-button cta-secondary">CV in English</a>
-  </div>
+<div class="cv-body">
+<div class="cv-main">
 
-  <p class="cv-note">[Espacio reservado: sube aquí tus archivos PDF a la carpeta <code>assets/</code> con los nombres <code>cv-es.pdf</code> y <code>cv-en.pdf</code> para que estos botones funcionen.]</p>
+<div class="cv-block">
+<h2 data-i18n="cv.profileHeading">Perfil</h2>
+<p data-i18n="cv.profileText">Desarrolladora en Unity con experiencia en diseño de niveles, creación de cinemáticas y UI. Destaco por mi proactividad, trabajo en equipo y comunicación efectiva, buscando roles que combinen narrativa con el desarrollo de experiencias interactivas.</p>
+</div>
+
+<div class="cv-block">
+<h2 data-i18n="cv.experienceHeading">Experiencia</h2>
+<div class="cv-entry">
+<div class="period" data-i18n="detail.pending">[pendiente]</div>
+<div><div class="role" data-i18n="cv.pendingRole">[Rol pendiente]</div><div class="org" data-i18n="cv.pendingOrg">[Estudio / proyecto pendiente]</div><div class="desc" data-i18n="cv.pendingDesc">[Describe aquí tus responsabilidades e impacto en este puesto.]</div></div>
+</div>
+<div class="cv-entry">
+<div class="period" data-i18n="detail.pending">[pendiente]</div>
+<div><div class="role" data-i18n="cv.pendingRole">[Rol pendiente]</div><div class="org" data-i18n="cv.pendingOrg">[Estudio / proyecto pendiente]</div><div class="desc" data-i18n="cv.pendingDesc">[Describe aquí tus responsabilidades e impacto en este puesto.]</div></div>
+</div>
+</div>
+
+<div class="cv-block" style="margin-bottom:0;">
+<h2 data-i18n="cv.educationHeading">Educación</h2>
+<div class="cv-entry">
+<div class="period" data-i18n="detail.pending">[pendiente]</div>
+<div><div class="role" data-i18n="cv.pendingTitle">[Título / curso pendiente]</div><div class="org" data-i18n="cv.pendingInst">[Institución pendiente]</div></div>
+</div>
+</div>
+
+</div>
+
+<div class="cv-side">
+
+<div class="cv-block">
+<h2 data-i18n="cv.skillsHeading">Habilidades</h2>
+<div class="tag-row">
+<span data-i18n="skill.level.label">Diseño de niveles</span>
+<span data-i18n="skill.cine.label">Cinemáticas</span>
+<span data-i18n="skill.ui.label">UI/UX</span>
+<span data-i18n="skill.narrative.label">Narrativa</span>
+<span>Prototipado</span>
+<span data-i18n="skill.team.label">Trabajo en equipo</span>
+</div>
+</div>
+
+<div class="cv-block">
+<h2 data-i18n="cv.toolsHeading">Herramientas</h2>
+<div class="tag-row">
+<span data-i18n="skill.unity.label">Unity</span>
+<span>C#</span>
+<span>Timeline</span>
+<span>Figma</span>
+<span>Git</span>
+</div>
+</div>
+
+<div class="cv-block">
+<h2 data-i18n="cv.languagesHeading">Idiomas</h2>
+<div class="lang-row"><span>Español</span><span class="level" data-i18n="cv.native">Nativo</span></div>
+<div class="lang-row"><span>Inglés</span><span class="level" data-i18n="cv.pendingLevel">[nivel pendiente]</span></div>
+</div>
+
+<div class="cv-block" style="margin-bottom:0;">
+<h2 data-i18n="cv.contactHeading">Contacto</h2>
+<div class="tag-row" style="flex-direction:column; align-items:flex-start; gap:0.5rem;">
+<a href="mailto:ana.soriano.vg@gmail.com" style="border:none; padding:0; background:none;">ana.soriano.vg@gmail.com</a>
+<a href="https://www.linkedin.com/in/anamaría-soriano-videojogames-cinema/" target="_blank" style="border:none; padding:0; background:none;">LinkedIn ↗</a>
+</div>
+</div>
+
+</div>
+</div>
+
+<p class="cv-note" data-i18n="cv.note">[Espacio reservado: sube aquí tus archivos PDF a la carpeta assets/ con los nombres cv-es.pdf y cv-en.pdf para que estos botones funcionen.]</p>
 </section>
 
 <footer>
-  <p>&copy; 2026 Anamaría Soriano</p>
+<p data-i18n="footer.text">© 2026 Anamaría Soriano</p>
 </footer>
 
 <script src="script.js"></script>
